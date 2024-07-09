@@ -1,0 +1,56 @@
+/* Сверстать форму по образцу, использовать flex-direction:
+ column для формы, и flex для блока с двумя fieldset, 
+ кнопку отправки центрировать с помощью flex. 
+ Наполнение и цвета могут быть произвольными. */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  max-width: 40vw;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+body {
+  background-color: #b7dde1;
+  /* margin: 20px; */
+}
+.first-last-name {
+  display: flex;
+  flex-direction: column;
+}
+.first-last-name > input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
+.big {
+  display: flex;
+  justify-content: space-between;
+  /*width: 50%;*/
+  margin: 5px;
+  padding: 5px;
+}
+.button {
+  text-align: center;
+}
+.button > input {
+  width: 20%;
+  border-radius: 0px;
+  background-color: #b7dde1;
+  color: black;
+}
+
+.second {
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+}

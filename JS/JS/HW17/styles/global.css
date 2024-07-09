@@ -1,0 +1,8 @@
+.heading {
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 10px;
+  color: #ff0000;
+  border: 2px solid teal;
+  background-color: pink;
+}/*# sourceMappingURL=global.css.map */
